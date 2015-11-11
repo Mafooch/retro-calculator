@@ -249,7 +249,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irp-7b-zTl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irp-7b-zTl">
                                 <rect key="frame" x="210" y="125" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="E2x-FJ-PHF"/>
@@ -276,6 +276,9 @@
                             <constraint firstItem="qh1-cD-q42" firstAttribute="centerY" secondItem="dJv-Hv-Tj8" secondAttribute="centerY" constant="35" id="pJ7-cN-DdJ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLbl" destination="Irp-7b-zTl" id="BNl-40-qUa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
