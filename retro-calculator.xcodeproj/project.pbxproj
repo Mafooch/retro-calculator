@@ -13,6 +13,7 @@
 		DD7287351BF2927600BFF611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7287341BF2927600BFF611 /* Assets.xcassets */; };
 		DD7287381BF2927600BFF611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7287361BF2927600BFF611 /* LaunchScreen.storyboard */; };
 		DD7CE4161BF3942E00BBAAB3 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD7CE4151BF3942E00BBAAB3 /* Minecraft.ttf */; };
+		DD7CE4181BF3CAA000BBAAB3 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD7CE4171BF3CAA000BBAAB3 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DD7287371BF2927600BFF611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD7287391BF2927600BFF611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD7CE4151BF3942E00BBAAB3 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		DD7CE4171BF3CAA000BBAAB3 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DD7CE4151BF3942E00BBAAB3 /* Minecraft.ttf */,
+				DD7CE4171BF3CAA000BBAAB3 /* btn.wav */,
 				DD72872D1BF2927600BFF611 /* AppDelegate.swift */,
 				DD72872F1BF2927600BFF611 /* ViewController.swift */,
 				DD7287311BF2927600BFF611 /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7CE4181BF3CAA000BBAAB3 /* btn.wav in Resources */,
 				DD7287381BF2927600BFF611 /* LaunchScreen.storyboard in Resources */,
 				DD7287351BF2927600BFF611 /* Assets.xcassets in Resources */,
 				DD7CE4161BF3942E00BBAAB3 /* Minecraft.ttf in Resources */,
