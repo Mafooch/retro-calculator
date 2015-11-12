@@ -256,6 +256,9 @@
                                                     <constraint firstAttribute="height" constant="63" id="l05-tK-2ee"/>
                                                 </constraints>
                                                 <state key="normal" image="clear"/>
+                                                <connections>
+                                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9xF-IV-AIr"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>

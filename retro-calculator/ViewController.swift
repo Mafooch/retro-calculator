@@ -50,6 +50,15 @@ class ViewController: UIViewController {
         outputLbl.text = runningNumber
     }
     
+    @IBAction func onClearPressed(btn: UIButton!) {
+        playSound()
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
+        currentOperation = Operation.Empty
+        outputLbl.text = "0"
+    }
+    
     @IBAction func onDividePressed(sender: AnyObject) {
         processOperation(Operation.Divide)
     }
